@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main2"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo1"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kanit"
+        android:text="คำร้องทั่วไป"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="34sp"
+        android:typeface="normal"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="77dp" />
+    <TextView
+        android:id="@+id/txtview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="เขียนที่"
+        android:fontFamily="@font/kanit"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+        />
+    <EditText
+        android:id="@+id/edittxt1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="ใส่ข้อมูล"
+        android:fontFamily="@font/kanit"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-75dp"
+        android:layout_marginLeft="200dp"
+        android:text="วันที่"
+        android:fontFamily="@font/kanit"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+        />
+    <EditText
+        android:id="@+id/edittxt2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="ใส่วันที่"
+        android:fontFamily="@font/kanit"
+        android:layout_marginLeft="200dp"
+        android:inputType="date"
+        />
+    <TextView
+        android:id="@+id/txtview3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="เรียน"
+        android:fontFamily="@font/kanit"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+        />
+    <EditText
+        android:id="@+id/edittxt3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="ใส่ข้อมูล"
+        android:fontFamily="@font/kanit"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtview4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="ข้าพเจ้า ชื่อ-นามสกุล"
+        android:fontFamily="@font/kanit"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+        />
+    <EditText
+        android:id="@+id/edittxt4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="ใส่ข้อมูล"
+        android:fontFamily="@font/kanit"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtview5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="ที่อยู่"
+        android:fontFamily="@font/kanit"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+        />
+    <EditText
+        android:id="@+id/edittxt5"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="ใส่ที่อยู่"
+        android:fontFamily="@font/kanit"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtview6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="หมายเลขโทรศัพท์"
+        android:fontFamily="@font/kanit"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+        />
+
+
+    <EditText
+        android:id="@+id/edittxt6"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="ใส่หมายเลขโทรศัพท์"
+        android:fontFamily="@font/kanit"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginLeft="10dp"
+        />
+
+    <Button
+            android:id="@+id/back1"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="#FF9800"
+            android:text="ย้อนกลับ"
+        android:fontFamily="@font/kanit"
+            android:textSize="16dp"
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="291dp"
+            tools:layout_editor_absoluteY="623dp" />
+
+        <Button
+            android:id="@+id/next1"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="-49dp"
+            android:backgroundTint="#FF9800"
+            android:text="ถัดไป"
+            android:fontFamily="@font/kanit"
+            android:textSize="16dp"
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="623dp" />
+
+
+</LinearLayout>

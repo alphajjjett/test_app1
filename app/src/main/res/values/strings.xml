@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">myapp</string>
+    <string name="todo">TODO</string>
+    <string name="mk_appeal">MK Appeal</string>
+    <string name="appeal">คำร้องทั่วไป</string>
+    <string name="comment">รับฟังความเห็น</string>
+    <string name="corrupt">ร้องเรียนทุจริต</string>
+    <string name="follow">ตรวจสอบการดำเนินงาน</string>
+</resources>
