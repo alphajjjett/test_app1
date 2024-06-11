@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,6 +14,10 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class Comment extends AppCompatActivity {
+
+    DBHelper DB;
+
+    EditText edittxt1, edittxt2, edittxt3, edittxt4, edittxt5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

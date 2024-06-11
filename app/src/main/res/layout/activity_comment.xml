@@ -9,6 +9,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
+
     <ImageView
         android:id="@+id/imageView1"
         android:layout_marginTop="10dp"
@@ -72,11 +73,33 @@
         />
 
     <TextView
-        android:id="@+id/txtview4"
+        android:id="@+id/txtview3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:text="หมายเลขโทรศัพท์"
+        android:fontFamily="@font/kanit"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+        />
+    <EditText
+        android:id="@+id/edittxt3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="ใส่ข้อมูล"
+        android:fontFamily="@font/kanit"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtview4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="เรื่อง"
         android:fontFamily="@font/kanit"
         android:textStyle="bold"
         android:textSize="20dp"
@@ -88,8 +111,6 @@
         android:layout_height="wrap_content"
         android:hint="ใส่ข้อมูล"
         android:fontFamily="@font/kanit"
-        android:ems="10"
-        android:inputType="number"
         android:layout_marginLeft="10dp"
         />
 
@@ -98,7 +119,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:text="เรื่อง"
+        android:text="รายละเอียดเรื่องร้องเรียน - ร้องทุกข์"
         android:fontFamily="@font/kanit"
         android:textStyle="bold"
         android:textSize="20dp"
@@ -112,29 +133,6 @@
         android:fontFamily="@font/kanit"
         android:layout_marginLeft="10dp"
         />
-
-    <TextView
-        android:id="@+id/txtview6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:text="รายละเอียดเรื่องร้องเรียน - ร้องทุกข์"
-        android:fontFamily="@font/kanit"
-        android:textStyle="bold"
-        android:textSize="20dp"
-
-        />
-    <EditText
-        android:id="@+id/edittxt6"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:hint="ใส่ข้อมูล"
-        android:fontFamily="@font/kanit"
-        android:layout_marginLeft="10dp"
-        />
-
-
-
 
 
     <Button
@@ -152,7 +150,7 @@
         tools:layout_editor_absoluteY="623dp" />
 
     <Button
-        android:id="@+id/send2"
+        android:id="@+id/next2"
         android:layout_width="110dp"
         android:layout_height="45dp"
         android:layout_marginLeft="250dp"
