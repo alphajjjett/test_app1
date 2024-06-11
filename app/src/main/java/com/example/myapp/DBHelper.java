@@ -37,6 +37,7 @@ public class DBHelper extends SQLiteOpenHelper {
         contentValues.put("information",information);
         contentValues.put("moreinfo",moreinfo);
         contentValues.put("request",request);
+
         long result = DB.insert("Userdetails",null,contentValues);
         if (result==-1){
             return false;
@@ -44,6 +45,7 @@ public class DBHelper extends SQLiteOpenHelper {
             return  true;
         }
     }
+
 
     public Boolean updateuserdata(String location,String date,String fromlo,String name,String address,
                                   String number,String information,String moreinfo,String request){
@@ -88,6 +90,7 @@ public class DBHelper extends SQLiteOpenHelper {
             return false;
         }
     }
+
 
     public Cursor getdata(){
         SQLiteDatabase DB = this.getWritableDatabase();
