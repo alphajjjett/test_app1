@@ -74,23 +74,6 @@ public class DBHelper extends SQLiteOpenHelper {
         }
     }
 
-    public Boolean deletedata(String location,String date,String fromlo,String name,String address,
-                                  String number,String information,String moreinfo,String request){
-        SQLiteDatabase DB = this.getWritableDatabase();
-        Cursor cursor = DB.rawQuery("Select * from Userdetails where number = ?",new String[]{number});
-        if (cursor.getCount()>0) {
-            long result = DB.delete("Userdetails", "number=?", new String[]{number});
-            if (result==-1){
-                return false;
-            }else {
-                return  true;
-            }
-
-        }else {
-            return false;
-        }
-    }
-
 
     public Cursor getdata(){
         SQLiteDatabase DB = this.getWritableDatabase();
